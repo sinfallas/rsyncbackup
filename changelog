@@ -1,4 +1,16 @@
-commit 513a4e7214b27acbef20837565853527893e555e (HEAD, origin/master, origin/HEAD, master)
+commit 5c65ff6aaebddca796d8bd0a3e51602f87e9e132 (HEAD, origin/master, origin/HEAD, master)
+Author: jose perez <sinfallas@gmail.com>
+Date:   Mon Oct 19 19:36:53 2015 -0430
+
+    * travis
+
+commit 2afe42a8a257cebd83fe5d6edd3f58e334aeb33d
+Author: jose perez <sinfallas@gmail.com>
+Date:   Mon Oct 19 19:33:54 2015 -0430
+
+    * changelog
+
+commit 513a4e7214b27acbef20837565853527893e555e
 Author: jose perez <sinfallas@gmail.com>
 Date:   Mon Oct 19 19:33:39 2015 -0430
 
