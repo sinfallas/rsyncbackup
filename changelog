@@ -1,4 +1,16 @@
-commit 9b7871637c8f2fac340299e51bee6173a6327fb6 (HEAD, origin/master, origin/HEAD, master)
+commit 5cecb17241f9a48b9083be2551f5ae3fdd001727 (HEAD, origin/master, origin/HEAD, master)
+Author: jose perez <sinfallas@gmail.com>
+Date:   Mon Oct 19 19:42:48 2015 -0430
+
+    * se coloca la variable $1 para indicar el directorio de origen
+
+commit 240f55db2e4abd89bc3f802839ceae8d03890c07
+Author: jose perez <sinfallas@gmail.com>
+Date:   Mon Oct 19 19:38:11 2015 -0430
+
+    * changelog
+
+commit 9b7871637c8f2fac340299e51bee6173a6327fb6
 Author: jose perez <sinfallas@gmail.com>
 Date:   Mon Oct 19 19:37:57 2015 -0430
 
