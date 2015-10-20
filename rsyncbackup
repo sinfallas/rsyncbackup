@@ -11,10 +11,10 @@ echo "$BASHPID" > /run/$0.pid
 
 if [[ -f /backup/.base ]]; then
 	mkdir -p /backup/"$(date +%d%m%y)"
-	rsync -cazvvb --link-dest=/backup/"$(date +%d%m%y)" /origen/datos/ /backup/principal/
+	rsync -cazvvb --link-dest=/backup/"$(date +%d%m%y)" $1/ /backup/principal/
 else
 	mkdir -p /backup/principal
-	rsync -cazv /origen/datos/ /backup/principal/
+	rsync -cazv $1/ /backup/principal/
 	touch /backup/.base
 fi
 
