@@ -13,9 +13,13 @@ echo "$BASHPID" > /run/$(basename $0).pid
 if [[ -f /backup/.base ]]; then
 	mkdir -p /backup/"$(date +%d%m%y)"
 	rsync -cazvvb --link-dest=/backup/"$(date +%d%m%y)" $1/ /backup/principal/
+	tar -czf /comprimidos/"$(date +%d%m%y)".tar.gz /backup/"$(date +%d%m%y)"
+	find /comprimidos/ -type f -iname '*.tar.gz' -mtime +30 -exec rm -vf {} \;
 else
 	mkdir -p /backup/principal
+	mkdir -p /comprimidos
 	rsync -cazv $1/ /backup/principal/
+	tar -czf /comprimidos/principal.tar.gz /backup/principal
 	touch /backup/.base
 fi
 
