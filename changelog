@@ -1,4 +1,22 @@
-commit 6628a465f2aaf1ca4956736700b1c46b00635420 (HEAD, origin/master, origin/HEAD, master)
+commit f29c4f9b39daec2c1aa53eada53cce24663c0fc6 (HEAD, origin/master, origin/HEAD, master)
+Author: jose perez <sinfallas@gmail.com>
+Date:   Wed Apr 20 19:22:33 2016 -0430
+
+    * se agrega la opcion de comprimir los respaldos
+
+commit 9071e095c29dc27db6d8d547b1a8ffbafb685630 (tag: v0.2)
+Author: Jose Perez <sinfallas@users.noreply.github.com>
+Date:   Mon Mar 7 10:44:12 2016 -0430
+
+    Create TODO
+
+commit 1173161e4f9abb10485a8df393a040a01a9b33b2
+Author: jose perez <sinfallas@gmail.com>
+Date:   Mon Feb 29 21:30:43 2016 -0430
+
+    * changelog
+
+commit 6628a465f2aaf1ca4956736700b1c46b00635420
 Author: jose perez <sinfallas@gmail.com>
 Date:   Mon Feb 29 21:30:29 2016 -0430
 
